@@ -83,4 +83,4 @@ npm run build
 
 ## Autor
 
-Projeto desenvolvido para apresentação universitária.
+Luis Eduardo Borges de Sousa (https://github.com/luiskkjk)
