@@ -59,7 +59,6 @@ npm run dev
 Isso sobe:
 
 - Frontend em http://localhost:5173
-- Backend em http://localhost:3001
 
 ### 3. Verificar a build de produção
 
