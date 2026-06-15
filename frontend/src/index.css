@@ -1,0 +1,43 @@
+:root {
+  color: #0f172a;
+  background: linear-gradient(135deg, #eff6ff 0%, #f8fafc 45%, #ecfccb 100%);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; }
+button, input { font: inherit; }
+
+#root { min-height: 100vh; }
+
+.app-shell { display: grid; grid-template-columns: 320px 1fr; gap: 20px; padding: 24px; max-width: 1600px; margin: 0 auto; align-items: start; }
+.content-column { display: grid; gap: 20px; }
+.panel { background: rgba(255,255,255,0.95); border-radius: 18px; padding: 20px; box-shadow: 0 18px 40px rgba(15,23,42,0.12); }
+.sidebar-card { position: sticky; top: 24px; display: grid; gap: 10px; width: 100%; align-self: start; }
+.sidebar-header { display: flex; align-items: center; gap: 10px; }
+.nav-btn { background: #eff6ff; color: #1e3a8a; text-align: left; font-weight: 600; display: flex; align-items: center; gap: 10px; }
+.nav-btn.active { background: #2563eb; color: #fff; }
+.nav-icon { width: 18px; text-align: center; font-size: 0.95rem; font-weight: 700; }
+.hero-card h1 { font-size: 2rem; margin: 0 0 10px; }
+.eyebrow { text-transform: uppercase; letter-spacing: 0.25rem; color: #2563eb; font-size: 0.82rem; }
+.lead { color: #475569; max-width: 700px; }
+
+
+.product-form { display: grid; gap: 12px; }
+.product-form label { display: grid; gap: 6px; color: #334155; font-weight: 600; }
+.product-form input, .product-form select { border: 1px solid #cbd5e1; border-radius: 10px; padding: 10px 12px; background: white; }
+.checkbox-row { display: flex; align-items: center; gap: 8px; font-weight: 500; }
+.checkbox-row input { width: 18px; height: 18px; }
+.actions-row { display: flex; gap: 10px; }
+button { border-radius: 10px; border: none; padding: 10px 14px; cursor: pointer; }
+.primary-btn { background: #2563eb; color: white; }
+.ghost-btn { background: #e2e8f0; color: #0f172a; }
+.danger-btn { background: #fee2e2; color: #b91c1c; }
+.message-box { border-radius: 10px; background: #eff6ff; color: #1d4ed8; padding: 10px 12px; }
+
+.table-header { display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-bottom: 10px; }
+table { width: 100%; border-collapse: collapse; }
+th, td { text-align: left; padding: 10px; border-bottom: 1px solid #dbe5dd; }
+.action-cell { display: flex; gap: 8px; flex-wrap: wrap; }
+.category-list { display: grid; gap: 10px; margin-top: 14px; }
+.category-card { display: flex; justify-content: space-between; align-items: center; gap: 10px; border: 1px solid #e2e8f0; border-radius: 12px; padding: 10px 12px; }
